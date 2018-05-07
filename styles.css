@@ -1,0 +1,58 @@
+.contain{
+
+    height: 500px;
+    width: 300px;
+    border: 1px lightpink solid;
+    margin: 10px auto;
+}
+#display{
+    width: 260px;
+    height: 50px;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 19px;
+    margin-left: 19px;
+}
+#display1{
+    width: 260px;
+    height: 50px;
+    font-size: 1.8em;
+    font-weight: bold;
+    border: 0px;
+    text-align: right;
+    background-color: ghostwhite;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 19px;
+    margin-left: 19px;
+}
+.buttons{
+    padding-top: 20px ;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.buttons button{
+    margin: 3px;
+    width: 60px;
+}
+
+.pull-right{
+    float: right;
+    
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#clear{
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.click{
+    background-color: #a32367;
+    color: #ffffff;
+}
